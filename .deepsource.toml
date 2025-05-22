@@ -1,6 +1,13 @@
 version = 1
 
 [[analyzers]]
+name = "terraform"
+
+[[analyzers]]
+name = "dart-analyze"
+type = "community"
+
+[[analyzers]]
 name = "java"
 
   [analyzers.meta]
